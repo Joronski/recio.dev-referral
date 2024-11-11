@@ -1,0 +1,437 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.brand-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.brand-logo {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.brand-title {
+    font-size: 2rem;
+    color: #1eaa3d;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+
+.menu-checkbox {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    color: #1eaa3d;
+    font-weight: 700;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #636363;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.nav-item img {
+    padding-right: 8px;
+}
+
+.nav-item:hover {
+    transition: 0.3s ease;
+    padding: 6px;
+    color: #1eaa3d;
+    border: 3px solid #1eaa3d;
+    border-radius: 10px;
+}
+
+.nav-item:active {
+    background-color: #e2e618;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.btn-login {
+    background-color: transparent;
+    font-weight: 600;
+    color: #1eaa3d;
+    border: 3px solid #fff;
+}
+
+.btn-login:hover {
+    transition: 0.3s ease;
+    background-color: #1eaa3d;
+    border: 3px solid #1eaa3d;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.btn-login:active {
+    background-color: #e2e618;
+}
+
+.btn-signup {
+    background-color: #1eaa3d;
+    color: #fff;
+    border: 3px solid #1eaa3d;
+    border-radius: 5px;
+}
+
+.btn-signup:hover {
+    transition: 0.3s ease;
+    background-color: #f8f8f8;
+    color: #1eaa3d;
+}
+
+.btn-signup:active {
+    background-color: #e2e618;
+}
+
+/* About Section Styling */
+.about-section {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('img/PnC Main Building.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #1eaa3d;
+    margin-bottom: 10px;
+    text-shadow:
+    -2px -2px 0 white,
+    2px -2px 0 white,
+    -2px 2px 0 white,
+    2px 2px 0 white;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #e2e618;
+    text-shadow:
+    -2px -2px 0 black,
+    2px -2px 0 black,
+    -2px 2px 0 black,
+    2px 2px 0 black;
+}
+
+/* Journey Section Styling */
+.journey-section {
+    display: flex;
+    padding: 40px 20px;
+    gap: 40px;
+    background-color: #f8f8f8;
+}
+
+.journey-img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;  
+}
+
+.journey-stats {
+    flex: 1;
+}
+
+.journey-title {
+    font-size: 1.1rem;
+    color: #1eaa3d;
+}
+
+.journey-description {
+    font-size: 2.5rem;
+    color: #000;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.stat-container {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.stat-item {
+    text-align: justify;
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    color: #1eaa3d;
+    font-weight: 700;
+}
+
+.stat-description {
+    font-size: 1rem;
+    color: #636363;
+}
+
+/* Cores Section Styling */
+.cores-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.cores-title {
+    font-size: 1.2rem;
+    color: #1eaa3d;
+}
+
+.cores-description {
+    font-size: 2.5rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.cores-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+}
+
+.core-item {
+    text-align: center;
+    padding: 25px 50px;
+    width: 270px;
+}
+
+.core-item:hover {
+    transition: 0.3s ease;
+    background-color: #eeeded;
+    border: 3px solid #1eaa3d;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.core-icon {
+    margin-bottom: 10px;
+}
+
+.core-text {
+    font-size: 1.5rem;
+    color: #636363;
+    font-weight: 500;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: 3px solid #1eaa3d;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    background-color: #1eaa3d;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    transition: 0.3s ease;
+    background-color: #f8f8f8;
+    color: #1eaa3d;
+}
+
+.btn-primary:active {
+    background-color: #e2e618;
+}
+
+footer {
+    background-color: #1eaa3d;
+}
+
+footer h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #e2e618;
+    margin: 0px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Media Query for Mobile Responsiveness */
+@media only screen and (max-width: 1200px) {
+    /* Header */
+    header {
+        flex-direction: column;
+    }
+
+    .brand-link {
+        padding-right: 600px;
+    } 
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .menu-checkbox:checked + .menu-icon + nav .nav-list {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+
+    .auth-buttons {
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* About Section */
+    .about-section {
+        padding: 40px 15px;     
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    /* Journey Section */
+    .journey-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .stat-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .journey-description {
+        font-size: 1.8rem;
+    }
+
+    .stat-number {
+        font-size: 3rem;
+    }
+
+    /* Core Section */
+    .cores-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .core-item {
+        padding: 30px 50px;
+    }
+
+    .core-description {
+        font-size: 1.8rem;
+    }
+
+    .btn-primary {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    /* Header */
+    .brand-link {
+        padding-right: 300px;
+    } 
+}
+
+@media only screen and (max-width: 580px) {
+    /* Header */
+    .brand-link {
+        padding-right: 150px;
+    } 
+
+    .brand-title {
+        font-size: 1.5rem;
+    }
+
+    .nav-list {
+        gap: 10px;
+    }
+
+    .auth-buttons {
+        margin-top: 10px;
+    }
+
+    /* About Section */
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 0.9rem;
+    }
+
+    /* Journey Section */
+    .journey-description {
+        font-size: 1.5rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    /* Tools Section */
+    .tools-description {
+        font-size: 1.5rem;
+    }
+
+    .tool-item {
+        padding: 20px 30px;
+    }
+}
